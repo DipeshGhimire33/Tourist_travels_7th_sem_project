@@ -7,7 +7,6 @@
 
 {% block content %}
 <link rel="stylesheet" href="{% static 'css/book_hotel.css' %}">
-<h1>{{ hotel.name }}</h1>
 
 <div class="booking-wrapper">
   <div class="container">
@@ -57,6 +56,7 @@
             </option>
           {% endfor %}
         </select>
+        
 
         <div class="section-title">🚗 Vehicle (Optional)</div>
         <select name="vehicle_id">
@@ -66,13 +66,13 @@
               {{ vehicle.name }} - {{ vehicle.type }} (${{ vehicle.rate }}/day)
             </option>
           {% endfor %}
-
-        <button type="submit">Continue to Equipment Selection →</button>
+          </select>
+        <button type="submit" class="btn btn-success btn-sm" >Continue to Equipment Selection →</button>
 
       </form>
 
     </div>
-
+      
   </div>
 </div>
 

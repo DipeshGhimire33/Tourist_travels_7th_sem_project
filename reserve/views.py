@@ -767,7 +767,7 @@ def booknow(request):
 def admin_dashboard(request):
 
 
-    total_revenue = Booking.objects.aggregate( total=Sum("total_price"))["total"] or 0
+    total_revenue = int(Booking.objects.aggregate( total=Sum("total_price"))["total"] or 0)
 
     total_bookings = Booking.objects.count()
 
