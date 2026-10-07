@@ -220,5 +220,8 @@ This project is configured for **local development only**. Before any deployment
 
 ## Author
 
-**Dipesh Ghimire**
+Lead Developer : **Dipesh Ghimire**
+Developer : **Bhijan Bastola**
+QA : **Jharna Poudel**
+
 GitHub: [@DipeshGhimire33](https://github.com/DipeshGhimire33)
